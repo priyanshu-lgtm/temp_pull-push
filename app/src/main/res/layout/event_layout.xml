@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/event_list_root"
+    android:layout_marginHorizontal="20dp"
+    android:padding="20dp"
+    android:background="@drawable/outline_adapter"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+            <TextView
+                android:id="@+id/event_list_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Test Event"
+                android:textSize="25sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <TextView
+            android:textSize="15sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_list_date"
+            android:gravity="end"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/event_list_name"
+            android:text="11/09/2022"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Repeat"
+                android:id="@+id/event_list_interval"
+                android:textSize="15sp"
+                app:layout_constraintTop_toBottomOf="@id/event_list_date"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

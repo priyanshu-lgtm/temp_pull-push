@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Eventer</string>
+    <string name="title_activity_add_event">Add_Event</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+<string-array name="test_array">
+    <item>Once</item>
+    <item>Hourly</item>
+    <item>Daily</item>
+    <item>Weekly</item>
+    <item>Monthly</item>
+    <item>Yearly</item>
+</string-array>
+</resources>
